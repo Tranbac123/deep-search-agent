@@ -1,0 +1,46 @@
+# Core LangChain & OpenAI
+langchain-openai==0.3.31
+openai==1.101.0
+langgraph>=0.3,<0.4
+langchain-community==0.3.0
+
+# MCP (Model Context Protocol)
+mcp==1.13.1
+langchain-mcp-adapters==0.1.9
+
+# Web Framework (FastAPI - optional, but used by some components)
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.11.4
+pydantic-settings>=2.1.0
+anyio>=4.5,<5
+
+# RAG & Vector Store
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+torch==2.2.2
+numpy==1.26.4
+
+# Web Scraping & Content Processing
+firecrawl-py>=0.0.16
+trafilatura>=1.6.0
+beautifulsoup4>=4.12.0
+aiohttp>=3.9.0
+httpx>=0.25.0
+
+# Text Processing
+tiktoken>=0.5.0
+
+# Utilities
+python-dotenv==1.0.1
+
+# Caching & Rate Limiting (optional but recommended)
+redis>=5.0.0
+
+# Logging & Monitoring
+structlog>=23.2.0
+
+# Testing (dev dependencies - optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
